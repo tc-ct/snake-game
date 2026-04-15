@@ -23,39 +23,7 @@ node --test
 
 ## 分享给别人玩
 
-最简单的方式是部署到 Vercel。
-
-### 方法一：用 GitHub + Vercel
-
-1. 把 `D:\AI_project` 上传到你的 GitHub 仓库
-2. 打开 [https://vercel.com](https://vercel.com)
-3. 用 GitHub 账号登录
-4. 选择 `Add New Project`
-5. 导入这个仓库
-6. 保持默认配置直接部署
-
-部署完成后，Vercel 会给你一个公开网址，别人打开就能玩。
-
-### 方法二：用 Vercel CLI 直接部署
-
-先安装 Vercel CLI：
-
-```powershell
-npm install -g vercel
-```
-
-然后在项目目录执行：
-
-```powershell
-cd D:\AI_project
-vercel
-```
-
-如果要直接发正式地址：
-
-```powershell
-vercel --prod
-```
+已经在Vercel上线，访问网址为 https://classic-snake-fgbiyvp6m-tangchao.vercel.app
 
 ## 手动检查清单
 
